@@ -1,0 +1,53 @@
+\documentclass{book}
+\usepackage[UTF8]{ctex}         % 使 latex支持中文
+\usepackage{cite}               % 导入引用的包，能够使用\cite
+\usepackage{color,xcolor}
+\usepackage{multirow}           % 用于table多行合并, multicolumn已经内嵌无需导入
+\usepackage{multicol}
+\usepackage{ragged2e}           % 用于控制文本对齐方式
+\usepackage{threeparttable}     % 用于添加tablenotes
+\usepackage{float}              % 用于table, figure等的悬浮方式,[H]紧跟上一内容
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{amssymb}            % \mathbb{ctx}将内容变成花体(适用于大写字母),如期望 E，维度 R
+\usepackage[lined,boxed,commentsnumbered]{algorithm2e}
+                                % 算法 \begin{algorithm} ... \end{algorithm}
+\usepackage{ulem}               % \uline等高下划线
+\usepackage{geometry}
+\geometry{left=1cm,right=1cm,top=1.5cm,bottom=1.5cm}    % 指定页边距
+\usepackage{hyperref}           % [backref]表示引用表用用矩形强调, 生成书签目录
+\hypersetup{hypertex=true,
+            colorlinks=true,    % 是否给链接标志着色
+            linkcolor=blue,     % 链接标志所着颜色
+            anchorcolor=blue,
+            citecolor=red}     % ref的编号颜色            
+
+% 使图片能在分栏命令multicols中显示(使用figurehere替代figure)
+\makeatletter
+\newenvironment{figurehere}
+    {\def\@captype{figure}}
+    {}
+\makeatother
+
+\begin{document}
+\title{走近NLP}
+\date{}     % 空内容可除去默认添加的日期
+\author{Bigluo}   % 作者
+\maketitle
+\flushleft  % 左对齐
+\justifying % 两端对齐
+
+\input{NLP Communities/NLP-Communities.tex}
+\input{EncoderOnly/EncoderOnly.tex}
+\input{DecoderOnly/DecoderOnly.tex}
+\input{Encoder-Decoder/Encoder-Decoder.tex}
+\input{Contrastive Learning/Contrastive Learning.tex}
+\input{MultiModal/MultiModal.tex}
+\input{Promotion Skills/Promotion Skills.tex}
+\input{Optimizer/Optimizer.tex}
+\input{Ensemble Learning/Ensemble Learning.tex}
+
+\bibliography{refs}             % 需创建refs.bib文件才可生效
+\bibliographystyle{ieeetr}      % 指定ref风格
+\end{document}

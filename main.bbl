@@ -1,0 +1,199 @@
+\begin{thebibliography}{10}
+
+\bibitem{DistilBert}
+V.~Sanh, L.~Debut, J.~Chaumond, and T.~Wolf, ``Distilbert, a distilled version
+  of bert: smaller, faster, cheaper and lighter,'' {\em arXiv preprint
+  arXiv:1910.01108}, 2019.
+
+\bibitem{Transformer}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
+  L.~Kaiser, and I.~Polosukhin, ``Attention is all you need,'' in {\em Advances
+  in neural information processing systems}, pp.~5998--6008, 2017.
+
+\bibitem{Adafactor}
+N.~Shazeer and M.~Stern, ``Adafactor: Adaptive learning rates with sublinear
+  memory cost,'' in {\em International Conference on Machine Learning},
+  pp.~4596--4604, PMLR, 2018.
+
+\bibitem{Bert}
+J.~Devlin, M.-W. Chang, K.~Lee, and K.~Toutanova, ``Bert: Pre-training of deep
+  bidirectional transformers for language understanding,'' {\em arXiv preprint
+  arXiv:1810.04805}, 2018.
+
+\bibitem{Albert}
+Z.~Lan, M.~Chen, S.~Goodman, K.~Gimpel, P.~Sharma, and R.~Soricut, ``Albert: A
+  lite bert for self-supervised learning of language representations,'' {\em
+  arXiv preprint arXiv:1909.11942}, 2019.
+
+\bibitem{T5}
+C.~Raffel, N.~Shazeer, A.~Roberts, K.~Lee, S.~Narang, M.~Matena, Y.~Zhou,
+  W.~Li, and P.~J. Liu, ``Exploring the limits of transfer learning with a
+  unified text-to-text transformer,'' {\em arXiv preprint arXiv:1910.10683},
+  2019.
+
+\bibitem{Reformer}
+N.~Kitaev, {\L}.~Kaiser, and A.~Levskaya, ``Reformer: The efficient
+  transformer,'' {\em arXiv preprint arXiv:2001.04451}, 2020.
+
+\bibitem{Glu-variants}
+N.~Shazeer, ``Glu variants improve transformer,'' {\em arXiv preprint
+  arXiv:2002.05202}, 2020.
+
+\bibitem{SimCLR}
+T.~Chen, S.~Kornblith, M.~Norouzi, and G.~Hinton, ``A simple framework for
+  contrastive learning of visual representations,'' in {\em International
+  conference on machine learning}, pp.~1597--1607, PMLR, 2020.
+
+\bibitem{Sentence-T5}
+J.~Ni, N.~Constant, J.~Ma, K.~B. Hall, D.~Cer, Y.~Yang, {\em et~al.},
+  ``Sentence-t5: Scalable sentence encoders from pre-trained text-to-text
+  models,'' {\em arXiv preprint arXiv:2108.08877}, 2021.
+
+\bibitem{Poly-Encoders}
+S.~Humeau, K.~Shuster, M.-A. Lachaux, and J.~Weston, ``Poly-encoders:
+  Transformer architectures and pre-training strategies for fast and accurate
+  multi-sentence scoring,'' {\em arXiv preprint arXiv:1905.01969}, 2019.
+
+\bibitem{Roberta}
+Y.~Liu, M.~Ott, N.~Goyal, J.~Du, M.~Joshi, D.~Chen, O.~Levy, M.~Lewis,
+  L.~Zettlemoyer, and V.~Stoyanov, ``Roberta: A robustly optimized bert
+  pretraining approach,'' {\em arXiv preprint arXiv:1907.11692}, 2019.
+
+\bibitem{Vilbert}
+J.~Lu, D.~Batra, D.~Parikh, and S.~Lee, ``Vilbert: Pretraining task-agnostic
+  visiolinguistic representations for vision-and-language tasks,'' {\em arXiv
+  preprint arXiv:1908.02265}, 2019.
+
+\bibitem{MoCo}
+K.~He, H.~Fan, Y.~Wu, S.~Xie, and R.~Girshick, ``Momentum contrast for
+  unsupervised visual representation learning,'' in {\em Proceedings of the
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pp.~9729--9738, 2020.
+
+\bibitem{MoCo-2}
+X.~Chen, H.~Fan, R.~Girshick, and K.~He, ``Improved baselines with momentum
+  contrastive learning,'' {\em arXiv preprint arXiv:2003.04297}, 2020.
+
+\bibitem{GPT-1}
+A.~Radford, K.~Narasimhan, T.~Salimans, and I.~Sutskever, ``Improving language
+  understanding by generative pre-training,'' 2018.
+
+\bibitem{GPT-2}
+A.~Radford, J.~Wu, R.~Child, D.~Luan, D.~Amodei, I.~Sutskever, {\em et~al.},
+  ``Language models are unsupervised multitask learners,'' {\em OpenAI blog},
+  vol.~1, no.~8, p.~9, 2019.
+
+\bibitem{Spare-Transformer}
+R.~Child, S.~Gray, A.~Radford, and I.~Sutskever, ``Generating long sequences
+  with sparse transformers,'' {\em arXiv preprint arXiv:1904.10509}, 2019.
+
+\bibitem{GPT-3}
+T.~B. Brown, B.~Mann, N.~Ryder, M.~Subbiah, J.~Kaplan, P.~Dhariwal,
+  A.~Neelakantan, P.~Shyam, G.~Sastry, A.~Askell, {\em et~al.}, ``Language
+  models are few-shot learners,'' {\em arXiv preprint arXiv:2005.14165}, 2020.
+
+\bibitem{CLIP}
+A.~Radford, J.~W. Kim, C.~Hallacy, A.~Ramesh, G.~Goh, S.~Agarwal, G.~Sastry,
+  A.~Askell, P.~Mishkin, J.~Clark, {\em et~al.}, ``Learning transferable visual
+  models from natural language supervision,'' {\em arXiv preprint
+  arXiv:2103.00020}, 2021.
+
+\bibitem{LightGBM}
+G.~Ke, Q.~Meng, T.~Finley, T.~Wang, W.~Chen, W.~Ma, Q.~Ye, and T.-Y. Liu,
+  ``Lightgbm: A highly efficient gradient boosting decision tree,'' {\em
+  Advances in neural information processing systems}, vol.~30, pp.~3146--3154,
+  2017.
+
+\bibitem{MT-DNN}
+X.~Liu, P.~He, W.~Chen, and J.~Gao, ``Multi-task deep neural networks for
+  natural language understanding,'' {\em arXiv preprint arXiv:1901.11504},
+  2019.
+
+\bibitem{UniLM}
+L.~Dong, N.~Yang, W.~Wang, F.~Wei, X.~Liu, Y.~Wang, J.~Gao, M.~Zhou, and H.-W.
+  Hon, ``Unified language model pre-training for natural language understanding
+  and generation,'' {\em arXiv preprint arXiv:1905.03197}, 2019.
+
+\bibitem{WeightNormalization}
+T.~Salimans and D.~P. Kingma, ``Weight normalization: A simple
+  reparameterization to accelerate training of deep neural networks,'' {\em
+  Advances in neural information processing systems}, vol.~29, pp.~901--909,
+  2016.
+
+\bibitem{UnifiedQA}
+D.~Khashabi, S.~Min, T.~Khot, A.~Sabharwal, O.~Tafjord, P.~Clark, and
+  H.~Hajishirzi, ``Unifiedqa: Crossing format boundaries with a single qa
+  system,'' {\em arXiv preprint arXiv:2005.00700}, 2020.
+
+\bibitem{Unicorn}
+N.~Lourie, R.~L. Bras, C.~Bhagavatula, and Y.~Choi, ``Unicorn on rainbow: A
+  universal commonsense reasoning model on a new multitask benchmark,'' {\em
+  arXiv preprint arXiv:2103.13009}, 2021.
+
+\bibitem{CPM-1}
+Z.~Zhang, X.~Han, H.~Zhou, P.~Ke, Y.~Gu, D.~Ye, Y.~Qin, Y.~Su, H.~Ji, J.~Guan,
+  {\em et~al.}, ``Cpm: A large-scale generative chinese pre-trained language
+  model,'' {\em AI Open}, vol.~2, pp.~93--99, 2021.
+
+\bibitem{CPM-2}
+Z.~Zhang, Y.~Gu, X.~Han, S.~Chen, C.~Xiao, Z.~Sun, Y.~Yao, F.~Qi, J.~Guan,
+  P.~Ke, {\em et~al.}, ``Cpm-2: Large-scale cost-effective pre-trained language
+  models,'' {\em arXiv preprint arXiv:2106.10715}, 2021.
+
+\bibitem{M6}
+J.~Lin, R.~Men, A.~Yang, C.~Zhou, M.~Ding, Y.~Zhang, P.~Wang, A.~Wang,
+  L.~Jiang, X.~Jia, {\em et~al.}, ``M6: A chinese multimodal pretrainer,'' {\em
+  arXiv preprint arXiv:2103.00823}, 2021.
+
+\bibitem{SimCSE}
+T.~Gao, X.~Yao, and D.~Chen, ``Simcse: Simple contrastive learning of sentence
+  embeddings,'' {\em arXiv preprint arXiv:2104.08821}, 2021.
+
+\bibitem{ERNIE-1.0}
+Y.~Sun, S.~Wang, Y.~Li, S.~Feng, X.~Chen, H.~Zhang, X.~Tian, D.~Zhu, H.~Tian,
+  and H.~Wu, ``Ernie: Enhanced representation through knowledge integration,''
+  {\em arXiv preprint arXiv:1904.09223}, 2019.
+
+\bibitem{ERNIE-2.0}
+Y.~Sun, S.~Wang, Y.~Li, S.~Feng, H.~Tian, H.~Wu, and H.~Wang, ``Ernie 2.0: A
+  continual pre-training framework for language understanding,'' in {\em
+  Proceedings of the AAAI Conference on Artificial Intelligence}, vol.~34,
+  pp.~8968--8975, 2020.
+
+\bibitem{PLATO-1}
+S.~Bao, H.~He, F.~Wang, H.~Wu, and H.~Wang, ``Plato: Pre-trained dialogue
+  generation model with discrete latent variable,'' {\em arXiv preprint
+  arXiv:1910.07931}, 2019.
+
+\bibitem{PLATO-2}
+S.~Bao, H.~He, F.~Wang, H.~Wu, H.~Wang, W.~Wu, Z.~Guo, Z.~Liu, and X.~Xu,
+  ``Plato-2: Towards building an open-domain chatbot via curriculum learning,''
+  {\em arXiv preprint arXiv:2006.16779}, 2020.
+
+\bibitem{ERNIE-vil}
+F.~Yu, J.~Tang, W.~Yin, Y.~Sun, H.~Tian, H.~Wu, and H.~Wang, ``Ernie-vil:
+  Knowledge enhanced vision-language representations through scene graphs,'' in
+  {\em Proceedings of the AAAI Conference on Artificial Intelligence}, vol.~35,
+  pp.~3208--3216, 2021.
+
+\bibitem{Knover}
+H.~He, H.~Lu, S.~Bao, F.~Wang, H.~Wu, Z.~Niu, and H.~Wang, ``Learning to select
+  external knowledge with multi-scale negative sampling,'' {\em arXiv preprint
+  arXiv:2102.02096}, 2021.
+
+\bibitem{Bert-wwm}
+Y.~Cui, W.~Che, T.~Liu, B.~Qin, Z.~Yang, S.~Wang, and G.~Hu, ``Pre-training
+  with whole word masking for chinese bert,'' {\em arXiv preprint
+  arXiv:1906.08101}, 2019.
+
+\bibitem{Electra}
+K.~Clark, M.-T. Luong, Q.~V. Le, and C.~D. Manning, ``Electra: Pre-training
+  text encoders as discriminators rather than generators,'' {\em arXiv preprint
+  arXiv:2003.10555}, 2020.
+
+\bibitem{MacBert}
+Y.~Cui, W.~Che, T.~Liu, B.~Qin, S.~Wang, and G.~Hu, ``Revisiting pre-trained
+  models for chinese natural language processing,'' {\em arXiv preprint
+  arXiv:2004.13922}, 2020.
+
+\end{thebibliography}
